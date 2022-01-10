@@ -1,7 +1,8 @@
 # PatientKFold
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![License](https://img.shields.io/github/license/danilown/PatientKFold.svg)](https://github.com/danilown/PatientKFold/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/danilown/PatientKFold.svg)](https://github.com/danilown/PatientKFold/blob/main/LICENSE)
+[![Python application](https://github.com/danilown/PatientKFold/actions/workflows/python-app.yml/badge.svg)](https://github.com/danilown/PatientKFold/actions/workflows/python-app.yml)
 
 A simple K-Fold cross-validator with 'group' awareness. It will **ensure** that a group will not be on the `train_set` and `test_set` at the same time.
 
