@@ -1,5 +1,8 @@
 # PatientKFold
 
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![License](https://img.shields.io/github/license/danilown/PatientKFold.svg)](https://github.com/danilown/PatientKFold/blob/master/LICENSE)
+
 A simple K-Fold cross-validator with 'group' awareness. It will **ensure** that a group will not be on the `train_set` and `test_set` at the same time.
 
 The best example is when working with medical data. When performing cross-validation, all data related to one patient muss be hold together in the same split and muss not leak to the other.
