@@ -39,7 +39,7 @@ pip install git+git://github.com/danilown/PatientKFold#egg=PatientKFold
 Then, using it is as simples as:
 
 ```python
-from PatientKFold.PatientKFold import PatientKFold
+from PatientKFold import PatientKFold
 ```
 
 > **Note 1**: As noted by [David Winterbottom](https://codeinthehole.com/tips/using-pip-and-requirementstxt-to-install-from-the-head-of-a-github-branch/), if you freeze the environment to export the dependencies, note that this will add the specific commit to your requirements, so it might be a good idea to delete the commit ID from it.
@@ -55,7 +55,7 @@ First example is splitting a list of patient ids into 5 Folds.
 Example 1:
 
 ``` python
-from PatientKFold.PatientKFold import PatientKFold
+from PatientKFold import PatientKFold
 
 patients = [1,2,3,4,5,6,7,8,9,10,11,12,13]
 p = PatientKFold(patients, random_state=42)
@@ -85,7 +85,7 @@ In the second example we split a pd.DataFrame into 5 Folds informing which colum
 Example 2:
 
 ``` python
-from PatientKFold.PatientKFold import PatientKFold
+from PatientKFold import PatientKFold
 import pandas as pd
 
 patient_df = {
@@ -200,7 +200,7 @@ Output:
 In order to test this class, just run:
 
 ```shell
-python test.py
+python -m unittest
 ```
 
 ## Support

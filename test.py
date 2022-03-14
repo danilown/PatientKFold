@@ -2,7 +2,7 @@ import unittest
 
 import pandas as pd
 
-from PatientKFold.PatientKFold import PatientKFold
+from PatientKFold import PatientKFold
 
 
 class TestPatientKFold(unittest.TestCase):
