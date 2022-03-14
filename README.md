@@ -33,7 +33,7 @@ A) Simply copy and paste it in your project;
 B) Or install it through `pip` following the command bellow:
 
 ``` bash
-pip install git+git://https://github.com/danilown/PatientKFold#egg=PatientKFold
+pip install git+git://github.com/danilown/PatientKFold#egg=PatientKFold
 ```
 
 Then, using it is as simples as:
